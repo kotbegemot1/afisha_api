@@ -46,7 +46,7 @@ class EventListSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Event
-        fields = ('title', 'descrtption', 'category')
+        fields = ('title', 'descrtption', 'category', 'event_date')
 
 
 class CommentCreateSerializer(serializers.ModelSerializer):
